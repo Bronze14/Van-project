@@ -13,16 +13,6 @@ export default function VanDetail() {
             .then(res => res.json())
             .then(data => setVan(data.vans))
     }, [params.id])
-
-    /**
-     * Challenge: When a filter is applied, change the text of
-     * the button to say "Back to luxury vans" (e.g.) instead of
-     * "Back to all vans".
-     * 
-     * As usual, there's more than one way to solve this, so just
-     * give it your best shot
-     */
-    
     const search = location.state?.search || ""
     const type = location.state?.type || "all"
     
