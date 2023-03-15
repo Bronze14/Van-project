@@ -13,6 +13,7 @@ export default function VanDetail() {
             .then(res => res.json())
             .then(data => setVan(data.vans))
     }, [params.id])
+
     const search = location.state?.search || ""
     const type = location.state?.type || "all"
     
