@@ -1,6 +1,6 @@
 # Van Project
 
-Van Project is an e-commerce web application built using React.js, HTML, CSS, and Firebase. The project enables users to browse and purchase various products. You can view the live preview of the application [here](https://main--van-shop.netlify.app/).
+Van Project is an e-commerce web application built using React.js, HTML, CSS, Firebase, and React Router. The project enables users to browse and purchase various products. You can view the live preview of the application [here](https://main--van-shop.netlify.app/).
 
 ## Prerequisites
 
@@ -65,6 +65,10 @@ The Van Project uses Firebase for authentication and database functionalities. T
 
 5. Open the `src/firebase.js` file in the project and replace the existing Firebase configuration with your own configuration.
 
+## React Router Setup
+
+React Router is used for client-side routing in the Van Project. Routes are defined in the `src/App.js` file. You can add or modify routes as per your requirements.
+
 ## Deployment
 
 To deploy the project, you can use any hosting platform of your choice. One option is to use Netlify:
@@ -101,5 +105,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- This project was built using React.js (https://reactjs.org/) and Firebase (https://firebase.google.com/).
+- This project was built using React.js (https://reactjs.org/), Firebase (https://firebase.google.com/), and React Router (https://reactrouter.com/).
 - The design and functionality of Van Project were inspired by e-commerce platforms.
