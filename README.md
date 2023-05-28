@@ -63,11 +63,11 @@ The Van Project uses Firebase for authentication and database functionalities. T
 
 4. Copy the Firebase configuration details (apiKey, authDomain, projectId, etc.) from the Firebase console.
 
-5. Open the `src/firebase.js` file in the project and replace the existing Firebase configuration with your own configuration.
+5. Open the `src/API/firebase.js` file in the project and replace the existing Firebase configuration with your own configuration.
 
 ## React Router Setup
 
-React Router is used for client-side routing in the Van Project. Routes are defined in the `src/App.js` file. You can add or modify routes as per your requirements.
+React Router is used for client-side routing in the Van Project. Routes are defined in the `src/index.jsx` file. You can add or modify routes as per your requirements.
 
 ## Deployment
 
